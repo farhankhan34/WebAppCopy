@@ -1,0 +1,41 @@
+{
+  "name": "webappprototype",
+  "version": "1.0.0",
+  "description": "I'll be creating my DECO2017 assignment on this web server",
+  "main": "dist/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "prestart": "parcel build ./public/index.html",
+    "dev": "parcel serve ./public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farhankhan34/WebAppPrototype.git"
+  },
+  "keywords": [
+    "DECO2017",
+    "Design",
+    "Farhan",
+    "Study",
+    "Application",
+    "HD"
+  ],
+  "author": "Farhan Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farhankhan34/WebAppPrototype/issues"
+  },
+  "homepage": "https://github.com/farhankhan34/WebAppPrototype#readme",
+  "dependencies": {
+    "core-js": "^3.13.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9",
+    "mongodb-client-encryption": "^1.2.3",
+    "regenerator-runtime": "^0.13.7",
+    "sass": "^1.32.12"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3"
+  }
+}

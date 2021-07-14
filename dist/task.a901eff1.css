@@ -1,0 +1,180 @@
+.all-tasks {
+  background-color: transparent;
+  padding: 0px;
+  margin-top: 1em;
+}
+
+.task-list .task-card {
+  display: block;
+  width: 90%;
+  margin: 5%;
+  padding-left: 0.5em;
+  background-color: #c97070;
+}
+.task-list .task-card .task-name {
+  text-align: left;
+  font-size: 1em;
+  width: 90%;
+  margin: 5%;
+  padding-left: 0.5em;
+  background-color: white;
+  line-height: 2.7em;
+  border-radius: 5px;
+}
+
+.task-hero {
+  display: inline-table;
+  width: 70%;
+  padding-top: 13px;
+}
+
+.task-toolbar {
+  display: inline-table;
+  width: auto;
+  text-align: right;
+  padding: 1rem;
+  float: right;
+}
+
+.hero-text {
+  font-size: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0 0 0 1rem;
+}
+
+.card {
+  position: relative;
+  margin: 1rem;
+  background: white;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s linear;
+  border: none;
+}
+.card h1 {
+  text-align: center;
+  padding: 1.5rem 2.5rem;
+  background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+  margin: 0 0 2rem 0;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.card:hover {
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, 0.25);
+}
+
+.task-entry-form {
+  width: 95%;
+  display: inline-block;
+  position: relative;
+  margin: 1rem;
+  background: white;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s linear;
+  background-image: linear-gradient(120deg, #1f1f1f 0%, #383838 100%);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #ffffff;
+}
+.task-entry-form .task-toolbar {
+  width: auto;
+}
+.task-entry-form .hero-div {
+  text-align: center;
+  padding: 1rem 2.5rem;
+  margin: 0 0 2rem 0;
+}
+.task-entry-form .hero-div .hero-text {
+  font-size: 1.5rem;
+  color: white;
+}
+.task-entry-form div {
+  margin: 1em;
+  text-align: left;
+}
+.task-entry-form div label {
+  padding-left: 5px;
+  min-width: 30%;
+  color: #ffffff;
+}
+.task-entry-form div input {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  line-height: 1em;
+  background-color: none !important;
+  border-color: none !important;
+  border-width: 0;
+}
+.task-entry-form div #cardName {
+  font-size: 1.7em;
+}
+.task-entry-form .save-task-icon {
+  background-color: transparent;
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+  margin: 0.5rem;
+  float: right;
+}
+.task-entry-form .close-task-icon {
+  background-color: transparent;
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+  margin: 0.5rem;
+  float: right;
+}
+
+.card p {
+  padding: 0 2em;
+  margin: 0;
+}
+
+.btn-icon {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  margin: 0rem;
+}
+
+/*
+  .card button {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    display: block;
+    margin: 1em 0;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid #666;
+    border-radius: 12px;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.2s linear;
+  }
+
+  .card button:hover {
+    background-color: #fef9d7;
+    transform: translateY(-2px);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .card button:active,
+  .card button:focus {
+    outline: 0;
+  }
+  */
+.task-time-spent {
+  float: right;
+  font-size: 1.7em;
+  margin-top: 3px;
+}
+
+/*# sourceMappingURL=/task.a901eff1.css.map */
